@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "inter";
+    src: url("../fonts/inter-variablefont_slntwght-webfont.woff2") format('woff2'),
+    url("../fonts/inter-variablefont_slntwght-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "potta";
+    src: url("../fonts/pottaone-regular-webfont.woff2") format('woff2'),
+    url("../fonts/pottaone-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "rampart";
+    src: url("../fonts/rampartone-regular-webfont.woff2") format('woff2'),
+    url("../fonts/rampartone-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.content-blocks p{
+    color: red;
+}
+
+.h1{
+    font-family: "rampart", Arial, Helvetica, sans-serif;
+}
+.h2{
+    font-family: "rampart", Arial, Helvetica, sans-serif;
+}
+.h3{
+    font-family: "potta", Arial, Helvetica, sans-serif;
+}
+.h6{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+}
