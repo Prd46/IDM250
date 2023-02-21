@@ -29,19 +29,22 @@ body{
     --accent: white;
 }
 
-.h1{
+h1{
     font-family: "rampart", Arial, Helvetica, sans-serif;
     color: var(--accent);
+    font-size: 4rem;
 }
-.h2{
+h2{
     font-family: "rampart", Arial, Helvetica, sans-serif;
     color: var(--accent);
+    font-size: 3rem;
 }
-.h3{
+h3{
     font-family: "potta", Arial, Helvetica, sans-serif;
     color: var(--accent);
+    font-size: 2rem;
 }
-.h6{
+h6{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
 }
@@ -49,29 +52,52 @@ p{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
 }
-.menu-header-menu-container ul{
-    display: flex;
+header{
     width: 100%;
-    background-color: black;
-    justify-content: space-around;
+    border-bottom: solid 1px white;
+}
+.header-image-file{
+    width: 100%;
+}
+.header-image{
+    padding: 1rem;
+    border-radius: 20rem;
+    height: 3rem;
+    width: 3rem;
+}
+.header-identity-wrapper{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.header-menu-links{
+    width: 60%;
+}
+.header-internal-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .25rem 1rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
 }
 .menu-item{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
     display: flex;
     flex-direction: column;
-    border-left: solid 2px var(--accent);
-    border-right: solid 2px var(--accent);
-    padding: .25rem;
+    border-left: solid 1px var(--accent);
+    border-right: solid 1px var(--accent);
+    width: 7rem;
     text-align: center;
 
-}
-.menu-item-has-children{
-    width: 15%;
 }
 .menu-item a{
     color: var(--accent);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .sub-menu{
@@ -81,7 +107,9 @@ p{
 }
 
 footer{
-    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -93,4 +121,34 @@ footer{
 }
 .menu-footer-menu{
     width: 90%;
+}
+
+@media screen and (max-width: 850px){
+    .header-internal-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .header-identity-wrapper{
+        width: 100%;
+        justify-content: center;
+    }
+    .header-menu-links{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .menu{
+        display: block;
+        
+        margin: 0 auto;
+    }
+    .menu-item{
+        width: 75%;
+        display: block;
+        
+        margin: 0 auto;
+    }
 }
