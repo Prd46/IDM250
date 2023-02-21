@@ -22,23 +22,75 @@
     font-style: normal;
 }
 
-
-.content-blocks p{
-    color: red;
+body{
+    background-color: black;
+}
+:root{
+    --accent: white;
 }
 
 .h1{
     font-family: "rampart", Arial, Helvetica, sans-serif;
+    color: var(--accent);
 }
 .h2{
     font-family: "rampart", Arial, Helvetica, sans-serif;
+    color: var(--accent);
 }
 .h3{
     font-family: "potta", Arial, Helvetica, sans-serif;
+    color: var(--accent);
 }
 .h6{
     font-family: "inter", Arial, Helvetica, sans-serif;
+    color: var(--accent);
 }
 p{
     font-family: "inter", Arial, Helvetica, sans-serif;
+    color: var(--accent);
+}
+.menu-header-menu-container ul{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+}
+.menu-item{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    color: var(--accent);
+    display: flex;
+    flex-direction: column;
+    border-left: solid 2px var(--accent);
+    border-right: solid 2px var(--accent);
+    padding: .25rem;
+    text-align: center;
+
+}
+.menu-item-has-children{
+    width: 15%;
+}
+.menu-item a{
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.sub-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-footer-menu-container{
+    width: 100%;
+}
+.menu-footer-menu{
+    width: 90%;
 }
