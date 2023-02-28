@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-Custom post type: Artwork
 <h1><?php echo get_the_title(); ?></h1>
 <div><?php get_the_excerpt(); ?></div>
 <h2>Categories for this post</h2>
