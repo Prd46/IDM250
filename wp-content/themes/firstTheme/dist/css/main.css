@@ -44,11 +44,27 @@ h3{
     color: var(--accent);
     font-size: 2rem;
 }
+h4{
+    font-family: "potta", Arial, Helvetica, sans-serif;
+    color: var(--accent);
+    font-size: 1.6rem;
+    
+}
+h5{
+    font-family: "potta", Arial, Helvetica, sans-serif;
+    color: var(--accent);
+    font-size: 1.3rem;
+}
 h6{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
+    font-size: 1rem;
 }
 p{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    color: var(--accent);
+}
+li{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
 }
