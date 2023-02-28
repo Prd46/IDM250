@@ -70,7 +70,8 @@ h5{
     font-family: "potta", Arial, Helvetica, sans-serif;
     color: var(--accent);
     font-size: 1.3rem;
-    padding: .5rem 2rem;
+    padding: 5rem 2rem;
+    line-height: 1.5rem;
 }
 h6{
     font-family: "inter", Arial, Helvetica, sans-serif;
