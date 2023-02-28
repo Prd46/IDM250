@@ -63,3 +63,24 @@ function register_theme_menus()
 }
 
 add_action('init', 'register_theme_menus');
+
+function register_custom_post_types()
+{
+    // Register Artwork post type
+    register_post_type(
+        'artwork', // used to grab all posts of this type
+        [
+            'labels' => [
+                'name' => __('Artwork'),
+                'singular_name' => __('Artwork')
+            ],
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => ['slug' => 'artwork'],
+            'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+            'show_in_rest' => true,
+        ]
+    );
+}
+
+add_action('init', 'register_custom_post_types');

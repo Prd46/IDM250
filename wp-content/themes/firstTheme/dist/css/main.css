@@ -88,11 +88,13 @@ header{
     color: var(--accent);
     display: flex;
     flex-direction: column;
-    border-left: solid 1px var(--accent);
-    border-right: solid 1px var(--accent);
     width: 7rem;
     text-align: center;
 
+}
+#menu-header-menu .menu-item{
+    border-left: solid 1px var(--accent);
+    border-right: solid 1px var(--accent);
 }
 .menu-item a{
     color: var(--accent);
@@ -122,8 +124,8 @@ footer{
 .menu-footer-menu-container{
     width: 100%;
 }
-.menu-footer-menu{
-    width: 90%;
+#menu-footer-menu{
+    
 }
 
 @media screen and (max-width: 850px){
