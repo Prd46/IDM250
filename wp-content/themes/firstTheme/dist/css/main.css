@@ -83,11 +83,14 @@ h6{
 p{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
-    padding: 4rem;
-    line-height: .6rem;
+    padding: 0 4rem 2rem ;
+    line-height: 1.5rem;
 }
-ul{
+ul, ol{
     padding: 0 2rem;
+}
+cite{
+    padding: 0 4rem 2rem;
 }
 li{
     list-style-type: circle;
