@@ -35,7 +35,7 @@ body{
 }
 .content-blocks{
     background-color: black;
-    padding: 2rem 6rem;
+    padding: 2rem 10%;
 }
 :root{
     --accent: white;

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <h1 class="page-title-custom"><?php echo get_the_title(); ?></h1>
-<div class="page-excerpt"><?php echo get_the_excerpt(); ?></div>
+<div class="page-excerpt"><?php //echo get_the_excerpt(); ?></div>
 <div class="page-date"><?php echo get_the_date();?></div>
 <h4>Categories for this post</h4>
 <div class="categories-box">
