@@ -96,6 +96,32 @@ ul, ol{
 a{
     text-decoration: none;
 }
+.category-link{
+    color: white;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+}
+.categories-box{
+   padding: 1rem 2rem; 
+}
+.page-excerpt{
+    color: white;
+    font-family: "caveat", Arial, Helvetica, sans-serif;
+    padding: 1rem 0 0 0 ;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.page-date{
+    color: white;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+span{
+    color: white;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+}
 cite{
     padding: 0 4rem 2rem;
 }
