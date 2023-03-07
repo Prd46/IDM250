@@ -50,6 +50,7 @@ h1{
     color: var(--accent);
     font-size: 4rem;
     padding: 1rem 2rem;
+    display: flex;
     justify-content: center;
 }
 h2{
@@ -87,11 +88,14 @@ h6{
     font-size: 1rem;
     padding: 1rem 0 1rem 0;
 }
-p, ul, ol{
+p{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
     padding: 0 4rem 3rem ;
     line-height: 2rem;
+}
+ul, ol{
+    padding: 0 6rem;
 }
 a{
     text-decoration: none;
@@ -102,6 +106,13 @@ a{
 }
 .categories-box{
    padding: 1rem 2rem; 
+   border-bottom: solid 1px var(--accent);
+   width: 75%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 0 auto;
+   text-align: center;
 }
 .page-excerpt{
     color: white;
