@@ -35,12 +35,16 @@ body{
 }
 .content-blocks{
     background-color: black;
-    padding: 2rem;
+    padding: 2rem 6rem;
 }
 :root{
     --accent: white;
 }
-
+.page-title-custom{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 1rem 0;
+}
 h1{
     font-family: "rampart", Arial, Helvetica, sans-serif;
     color: var(--accent);
@@ -78,13 +82,13 @@ h6{
     font-weight: 800;
     color: var(--accent);
     font-size: 1rem;
-    padding: .5rem 2rem;
+    padding: 1rem 0 1rem 0;
 }
 p{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
-    padding: 0 4rem 2rem ;
-    line-height: 1.5rem;
+    padding: 0 4rem 3rem ;
+    line-height: 2rem;
 }
 ul, ol{
     padding: 0 2rem;
@@ -221,9 +225,12 @@ footer{
     .header-menu-links{
         width: 95%;
     }
+    .content-blocks{
+        padding: 2rem 3rem;
+    }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 550px){
     .menu{
         display: block;
         
@@ -234,5 +241,14 @@ footer{
         display: block;
         
         margin: 0 auto;
+    }
+    .content-blocks{
+        padding: 1rem 0;
+    }
+    p{
+        padding: 1rem 2rem;
+    }
+    h1{
+        font-size: 2.5rem;
     }
 }
