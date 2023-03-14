@@ -95,7 +95,10 @@ p{
     line-height: 2rem;
 }
 ul, ol{
-    padding: 0 6rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -171,29 +174,34 @@ header{
     width: 3rem;
 }
 .header-identity-wrapper{
-    width: 40%;
+    max-width: 30rem;
+    min-width: 25rem;
     display: flex;
     align-items: center;
 }
 .header-menu-links{
-    width: 60%;
+    max-width: 60rem;
+    min-width: 10rem;
 }
 .header-internal-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .25rem 1rem;
+    padding: .25rem 3rem .25rem 1rem;
 }
 .menu{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
 }
 .menu-item{
     font-family: "inter", Arial, Helvetica, sans-serif;
     color: var(--accent);
     display: flex;
     flex-direction: column;
-    width: 7rem;
+    max-width: 7rem;
+    min-width: 5rem;
     text-align: center;
 
 }
@@ -248,6 +256,30 @@ footer{
     border-radius: 5rem;
     text-decoration: none;
 }
+.two-column-split{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+.left-column{
+    width: 70%;
+}
+.right-column{
+    position: relative;
+    padding: 1rem;
+    border: solid 2px white;
+    border-radius: 1rem;
+    display: flex;
+    width: 20%;
+}
+.sidebar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 @media screen and (max-width: 850px){
     .header-internal-wrapper{
         display: flex;

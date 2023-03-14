@@ -57,7 +57,8 @@ function register_theme_menus()
     register_nav_menus(
         [
         'primary-menu' => 'Primary Menu',
-        'footer-menu' => 'Footer Menu'
+        'footer-menu' => 'Footer Menu',
+        'sidebar-menu' => 'Sidebar Menu'
         ]
         );
 }
