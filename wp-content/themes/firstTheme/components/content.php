@@ -1,5 +1,5 @@
 <div class="content-blocks">
-  <?php
+<?php
 if (have_posts()) {
     // Load posts loop.
     while (have_posts()) {

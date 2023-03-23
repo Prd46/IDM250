@@ -1,4 +1,5 @@
 <div class="sidebar">
-    <p>Other pages</p>
+    <h4>Other pages</h4>
     <?php wp_nav_menu(['theme_location' => 'sidebar-menu']); ?>
+    <h4>Posts</h4>
 </div>
