@@ -9,7 +9,7 @@
  }
  $arg = [
      'post_type' => 'post', // the post type
-     'posts_per_page' => 10, // number of posts per page
+     'posts_per_page' => 4, // number of posts per page
      'paged' => $current_page_number //
  ];
 
