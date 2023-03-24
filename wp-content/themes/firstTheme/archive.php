@@ -12,7 +12,9 @@
      'posts_per_page' => 4, // number of posts per page
      'paged' => $current_page_number //
  ];
-
+?>
+<div class="all-cards">
+<?php
  $wp_query = new WP_Query($arg);
  $description = get_the_archive_description();
  // loop through $wp_query and output the posts
@@ -23,6 +25,6 @@
      }
  }
  ?>
-
+</div>
 
 <?php get_footer(); ?>

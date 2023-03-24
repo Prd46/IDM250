@@ -37,6 +37,9 @@ body{
     background-color: black;
     padding: 2rem 10%;
 }
+img{
+    width: 100%;
+}
 :root{
     --accent: white;
 }
@@ -279,7 +282,40 @@ footer{
     align-items: center;
 
 }
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    height: 20rem;
+    border: solid 2px white;
+    overflow: hidden;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+}
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.card-caption{
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    text-align: center;
 
+}
 @media screen and (max-width: 850px){
     .header-internal-wrapper{
         display: flex;
