@@ -40,6 +40,11 @@ body{
 img{
     width: 100%;
 }
+.wp-block-image{
+    margin: 2rem auto;
+    max-width: 60%;
+    box-shadow: 0 0 20px var(--accent);
+}
 :root{
     --accent: white;
 }
@@ -89,7 +94,7 @@ h6{
     font-weight: 800;
     color: var(--accent);
     font-size: 1rem;
-    padding: 1rem 0 1rem 0;
+    padding: .5rem 2rem;
 }
 p{
     font-family: "inter", Arial, Helvetica, sans-serif;
@@ -270,7 +275,7 @@ footer{
 .right-column{
     position: relative;
     padding: 1rem;
-    border: solid 2px white;
+    border: solid 2px var(--accent);
     border-radius: 1rem;
     display: flex;
     width: 20%;
@@ -281,6 +286,13 @@ footer{
     flex-direction: column;
     align-items: center;
 
+}
+.wp-block-embed{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    max-width: 60%;
+    box-shadow: 0 0 20px var(--accent);
 }
 .card-box{
     display: flex;
@@ -316,12 +328,26 @@ footer{
     text-align: center;
 
 }
+.wp-block-button{
+    font-family: "potta", Arial, Helvetica, sans-serif;
+    color: var(--accent);
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 10rem;;
+    border: solid 2px var(--accent);
+}
 @media screen and (max-width: 850px){
     .header-internal-wrapper{
         display: flex;
         justify-content: center;
         flex-direction: column;
         padding: 1rem;
+    }
+    .wp-block-image{
+        max-width: 90%;
+    }
+    .wp-block-embed{
+        max-width: 90%;
     }
     .header-identity-wrapper{
         width: 100%;
@@ -340,6 +366,12 @@ footer{
         display: block;
         
         margin: 0 auto;
+    }
+    .wp-block-image{
+       max-width: 100%;
+    }
+    .wp-block-embed{
+        max-width: 100%;
     }
     .menu-item{
         width: 75%;
